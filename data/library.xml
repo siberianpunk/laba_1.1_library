@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library>
+    <books>
+        <book id="1" is_available="true">
+            <title>Мастер и Маргарита</title>
+            <author>Булгаков</author>
+            <isbn>978-5-00000-000-0</isbn>
+            <year>1967</year>
+        </book>
+        <book id="2" is_available="true">
+            <title>1984</title>
+            <author>Оруэлл</author>
+            <isbn>978-5-00000-001-7</isbn>
+            <year>1949</year>
+        </book>
+    </books>
+    <readers>
+        <reader id="1">
+            <full_name>Вася Петров</full_name>
+            <email>vasya@example.com</email>
+            <phone>+7-927-228-67-69</phone>
+        </reader>
+        <reader id="2">
+            <full_name>Петя Васечкин</full_name>
+            <email>petya@example.com</email>
+            <phone>+7-927-306-13-37</phone>
+        </reader>
+    </readers>
+    <loans>
+        <loan id="1" book_id="1" reader_id="1" is_returned="true">
+            <loan_date>2026-10-03</loan_date>
+            <return_date>2026-10-03</return_date>
+        </loan>
+    </loans>
+    <next_loan_id>2</next_loan_id>
+</library>

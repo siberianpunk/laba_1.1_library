@@ -1,0 +1,45 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Мастер и Маргарита",
+            "author": "Булгаков",
+            "isbn": "978-5-00000-000-0",
+            "year": 1967,
+            "is_available": true
+        },
+        {
+            "id": 2,
+            "title": "1984",
+            "author": "Оруэлл",
+            "isbn": "978-5-00000-001-7",
+            "year": 1949,
+            "is_available": true
+        }
+    ],
+    "readers": [
+        {
+            "id": 1,
+            "full_name": "Вася Петров",
+            "email": "vasya@example.com",
+            "phone": "+7-927-228-67-69"
+        },
+        {
+            "id": 2,
+            "full_name": "Петя Васечкин",
+            "email": "petya@example.com",
+            "phone": "+7-927-306-13-37"
+        }
+    ],
+    "loans": [
+        {
+            "id": 1,
+            "book_id": 1,
+            "reader_id": 1,
+            "loan_date": "2026-10-03",
+            "return_date": "2026-10-03",
+            "is_returned": true
+        }
+    ],
+    "next_loan_id": 2
+}
